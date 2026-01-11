@@ -1,14 +1,15 @@
+import FormHeader from "./FormHeader";
 const DonateFood = () => {
   return (
     <div className="page">
       <div className="center-wrapper">
         <div className="card">
           {/* Header */}
-          <div className="card-header">
-            <div className="card-icon"></div>
-            <h2>Donate Food</h2>
-            <p>Help reduce food waste and feed those in need</p>
-          </div>
+          <FormHeader
+  title="Donate Food"
+  subtitle="Help reduce food waste and feed those in need."
+/>
+
 
           {/* Form */}
           <form>

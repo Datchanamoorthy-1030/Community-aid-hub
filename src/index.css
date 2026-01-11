@@ -470,7 +470,7 @@ a.btn {
 }
 .hero-image {
   width: 100%;
-  max-width: 480px;
+  max-width: 460px;
   height: auto;
 }
 .hero-image-wrapper {
@@ -571,6 +571,25 @@ a.btn {
   font-size: 14px;
   color: var(--gray-500);
 }
+.logo-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+.form-logo {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+.navbar-logo {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar a:hover {
+  text-decoration: none;
+}
+
 /* ===============================
    RESPONSIVE DESIGN
 ================================ */

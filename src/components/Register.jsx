@@ -1,14 +1,15 @@
+import FormHeader from "./FormHeader";
 const Register = () => {
   return (
     <div className="page">
       <div className="center-wrapper">
         <div className="card">
           {/* Header */}
-          <div className="card-header">
-            <div className="card-icon"></div>
-            <h2>Create Account</h2>
-            <p>Join Community Aid Hub and start making a difference</p>
-          </div>
+          <FormHeader
+  title="Create an Account"
+  subtitle="Join us in helping those in need today."
+/>
+
 
           {/* Form */}
           <form>

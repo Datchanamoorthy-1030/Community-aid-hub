@@ -1,14 +1,16 @@
+import FormHeader from "./FormHeader";
+
 const Login = () => {
   return (
     <div className="page">
       <div className="center-wrapper">
         <div className="card">
           {/* Header */}
-          <div className="card-header">
-            <div className="card-icon"></div>
-            <h2>Login</h2>
-            <p>Access your account to manage donations</p>
-          </div>
+          <FormHeader
+  title="Welcome Back"
+  subtitle="Please sign in to your account to continue."
+/>
+
 
           {/* Form */}
           <form>

@@ -1,14 +1,15 @@
+import FormHeader from "./FormHeader";
 const DonateItems = () => {
   return (
     <div className="page">
       <div className="center-wrapper">
         <div className="card">
           {/* Header */}
-          <div className="card-header">
-            <div className="card-icon"></div>
-            <h2>Donate Items</h2>
-            <p>Donate essentials to support communities in need</p>
-          </div>
+          <FormHeader
+  title="Donate Items"
+  subtitle="Your unused items can change someone’s life."
+/>
+
 
           {/* Form */}
           <form>

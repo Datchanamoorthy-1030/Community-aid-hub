@@ -6,9 +6,10 @@ const Navbar = ({ type = "landing" }) => {
       <div className="container navbar-inner">
         {/* Logo */}
         <Link to="/" className="navbar-logo">
-          <div className="logo-icon"></div>
-          <span>Community Aid Hub</span>
-        </Link>
+  <img src="/logo.png" alt="Community Aid Hub logo" className="logo-img" />
+  <span>Community Aid Hub</span>
+</Link>
+
 
         {/* Center Menu */}
         {type === "landing" && (

@@ -1,14 +1,14 @@
+import FormHeader from "./FormHeader";
 const JoinVolunteer = () => {
   return (
     <div className="page">
       <div className="center-wrapper">
         <div className="card">
           {/* Header */}
-          <div className="card-header">
-            <div className="card-icon"></div>
-            <h2>Join as Volunteer</h2>
-            <p>Contribute your time and skills to make a difference</p>
-          </div>
+          <FormHeader
+  title="Join as a Volunteer"
+  subtitle="Be the helping hand that delivers hope."
+/>
 
           {/* Form */}
           <form>
