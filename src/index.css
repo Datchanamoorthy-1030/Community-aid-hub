@@ -11,8 +11,9 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: #f7fbf8;
+  background-color:#eaf7f1;;
   color: #0f172a;
+  margin: 0;
 }
 
 #root {
@@ -89,7 +90,6 @@ p {
 /* Page wrapper */
 .page {
   min-height: 100vh;
-  background-color: #f7fbf8;
   display: flex;
   flex-direction: column;
 }
@@ -268,6 +268,7 @@ a.btn {
    HERO BUTTON COLOR BEHAVIOR
 ================================ */
 
+
 /* Default: light green */
 .hero-btn {
   background-color: var(--green-100);
@@ -405,8 +406,9 @@ a.btn {
 ================================ */
 
 .hero {
-  background-color: var(--green-50);
-  padding: 80px 0;
+  background-color: #eaf7f1;
+  padding: 80px 0 ;
+  margin-bottom: 0;
 }
 
 .hero-inner {
@@ -486,10 +488,21 @@ a.btn {
   height: auto;
   border-radius: var(--radius-md);
 }
+section {
+  overflow: hidden;
+}
+
 
 /* ===============================
    HOW YOU CAN HELP
 ================================ */
+.help-section {
+  margin-top: 0;
+  padding-top: 80px;
+  background-color: #ffffff;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
 
 .help {
   padding: 80px 0;
