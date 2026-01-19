@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
+    <div className="page">
     <section className="hero">
       <div className="container hero-inner">
         {/* LEFT CONTENT */}
@@ -47,6 +48,7 @@ const Hero = () => {
 
       </div>
     </section>
+    </div>
   );
 };
 
